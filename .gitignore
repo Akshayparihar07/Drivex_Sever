@@ -1,0 +1,106 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.sqlite3
+*.db
+*.sqlite3-journal
+
+# Environment variables and secrets
+.env
+*.env
+*.env.* 
+config/settings/local.py  # If you have environment-specific settings
+
+# Virtual environment
+venv/
+env/
+*.egg
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.iml
+
+# Testing and coverage
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+nosetests.xml
+test-results/
+
+# Migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.log
+
+# Static and media files
+staticfiles/
+media/
+*.bak
+*.swp
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+*.dockerfile
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git hooks
+.hooks/
+
+# Python compiled files
+*.pyd
+*.pyo
+*.pyc
+*.pdb
+
+# MyPy
+.mypy_cache/
+
+# Black and other formatters
+.pytest_cache/
+.black/
+.isort.cfg
+
+# Celery, Redis, or async worker files
+celerybeat-schedule
+celerybeat.pid
+
+# PyCharm
+*.idea/
+
+# JetBrains Rider
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Local configuration
+*.local
+*.secret
